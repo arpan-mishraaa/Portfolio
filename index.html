@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arpan Mishra - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo1.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile_pic.jpg"
+              alt="Arpan Mishra"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Arpan Mishra">Arpan Mishra</h1>
+
+            <p class="title">Full Stack Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:arpanm0604@gmail.com" class="contact-link"
+                  >arpanm0604@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+917325920127" class="contact-link"
+                  >+91 7325920127</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">8 <sup>th</sup> Oct 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bhubaneswar, Odisha, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/arpan-mishra-169761260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/arpan-mishraaa" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://leetcode.com/u/arpan_mishraa/"
+                class="social-link"
+              >
+                <ion-icon name="laptop"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a passionate Full Stack Developer and aspiring AI Engineer
+              from India, specializing in crafting modern, responsive, and
+              intelligent web solutions. With a strong foundation in the MERN
+              stack, Django, Tailwind CSS, and Bootstrap, I bridge the gap
+              between functionality and user experience to deliver seamless
+              digital products.
+            </p>
+
+            <p>
+              Whether it's building a robust web application from the ground up
+              or experimenting with AI-driven features, I thrive on turning
+              ideas into scalable, real-world solutions. My approach combines
+              clean design with efficient code — ensuring not only performance,
+              but personality in every project.
+            </p>
+            <p>
+              From intuitive user interfaces to smart backends, I bring
+              creativity, precision, and purpose to every line of code. My
+              mission is simple: to engineer tech that’s not just powerful, but
+              meaningful.
+            </p>
+
+          <!-- download section -->
+          </section>
+          <section style="margin-bottom: 40px;">
+            <span style="display: flex; align-items: center; gap: 10px;">
+              <p style="color: white; font-size: 20px; margin: 0;">
+                Download My Resume ---------->
+              </p>
+              <a 
+                href="./assets/pdfssss/arpan_mishraa.pdf" 
+                download 
+                style="background-color: #FACC15; color: black; padding: 8px 16px; text-decoration: none; border: none; border-radius: 4px; font-weight: bold;"
+              >
+                Download
+              </a>
+            </span>
+          </section>          
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                  src="./assets/images/icon-dev.svg"
+                  alt="Web Development Icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/ai-icon.svg"
+                    alt="AI icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Learning AI</h4>
+
+                  <p class="service-item-text">
+                    Proficient In ML, DL & Still Learning GenAI, LLM, Langchain
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/ps-icon.svg"
+                    alt="problem solving icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                  <p class="service-item-text">
+                    Consistent practice of algorithmic challenges to build efficient and optimized solutions. Usually on Leetcode & GFG.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/code-icon.svg"
+                    alt="code icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">🌱 Beyond Code</h4>
+
+                  <p class="service-item-text">
+                    Firm believer in consistent growth, mindful living, and enjoying the process — both in tech and life.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Silicon University, Bhubaneswar</h4>
+              <span>2022 — Present</span>
+              <p class="timeline-text">
+                B.Tech in Electronics and Communication Engineering, CGPA: 7.97
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Adyant HSS, Bhubaneswar</h4>
+              <span>2020 — 2022</span>
+              <p class="timeline-text">
+                Higher Secondary Education (12th Grade), Percentage: 83.5%
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SSVM, Choudwar</h4>
+              <span>2019 — 2020</span>
+              <p class="timeline-text">
+                Secondary Education (10th Grade), Percentage: 87.33%
+              </p>
+            </li>
+          </ol>
+        </section>
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Java Developer Intern - Silan Softwares</h4>
+              <span>August – October 2023</span>
+              <p class="timeline-text">
+                Worked on internal projects involving data handling and backend logic.  
+                Gained hands-on experience working 6–7 hours daily in a collaborative office environment.
+              </p>
+            </li>
+            
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ML & DL Intern - Syllogistek Systems Pvt. Ltd.</h4>
+              <span>June — August 2024</span>
+              <p class="timeline-text">
+                Worked on real-world data analysis projects involving machine learning and deep learning.
+                Hands-on experience in data preprocessing and model evaluation.
+              </p>
+            </li>
+          </ol>
+        </section>
+      
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+      
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack Development(MERN)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Problem Solving (DSA)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Django & REST API</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend (HTML, CSS, Bootstrap)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>MERN Projects</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Django Projects</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Certifications</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>MERN Projects</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Django Projects</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Certifications</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- MERN - 1 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="MERN Projects"
+              >
+                <a href="https://github.com/arpan-mishraaa/craftmylogo">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/dj-project-1.png"
+                      alt="Craft-My-Logo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Craft-My-Logo</h3>
+
+                  <p class="project-category">MERN Projects</p>
+                </a>
+              </li>
+
+              <!-- django-1 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Django Projects"
+              >
+                <a href="https://medx-t2xn.onrender.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/dj-project-2.png"
+                      alt="MedX"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MedX:Smart Healthcare</h3>
+
+                  <p class="project-category">Django Projects</p>
+                </a>
+              </li>
+              <!-- django-2 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Django Projects"
+              >
+                <a href="https://github.com/arpan-mishraaa/CVizard">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/dj-project-3.png"
+                      alt="CVizard"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">CVizard:AI Resume Analyzer</h3>
+
+                  <p class="project-category">Django Projects</p>
+                </a>
+              </li>
+              <!-- cert-1 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Certifications"
+              >
+                <a href="https://drive.google.com/file/d/1IfwAKL4nLwE4aq_0e53IdBtOIMJvLVnY/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/mlint.png"
+                      alt="PDF"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AIML-Internship</h3>
+
+                  <p class="project-category">Certifications</p>
+                </a>
+              </li>
+              <!-- cert-2 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Certifications"
+              >
+                <a href="https://drive.google.com/file/d/1-Z3P-J-brlV7d_WQ3oNJ7leZQphdRN7K/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/javaint.png"
+                      alt="PDF"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Java-Internship</h3>
+
+                  <p class="project-category">Certifications</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
